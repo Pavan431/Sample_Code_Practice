@@ -1,0 +1,54 @@
+
+{
+  "company": {
+    "name": "ABC Tech",
+    "location": "Chennai",
+    "departments": [
+      {
+        "dept_id": 1,
+        "name": "Engineering",
+        "manager": "Naveen",
+        "employees": [
+          {
+            "emp_id": 101,
+            "name": "Pavan",
+            "role": "Backend Developer",
+            "salary": 800000,
+            "skills": ["Python", "Django", "SQL"],
+            "projects": [
+              {"project_id": "P1", "name": "Billing System", "status": "Completed"},
+              {"project_id": "P2", "name": "Payment Gateway", "status": "In Progress"}
+            ]
+          },
+          {
+            "emp_id": 102,
+            "name": "Arun",
+            "role": "Frontend Developer",
+            "salary": 600000,
+            "skills": ["React", "JavaScript"],
+            "projects": [
+              {"project_id": "P3", "name": "UI Revamp", "status": "Completed"}
+            ]
+          }
+        ]
+      },
+      {
+        "dept_id": 2,
+        "name": "QA",
+        "manager": "Kiran",
+        "employees": [
+          {
+            "emp_id": 201,
+            "name": "Ravi",
+            "role": "QA Engineer",
+            "salary": 500000,
+            "skills": ["Selenium", "Python"],
+            "projects": [
+              {"project_id": "P4", "name": "Automation", "status": "In Progress"}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
